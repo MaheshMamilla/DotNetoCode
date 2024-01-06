@@ -1,0 +1,16 @@
+/* wwwroot/css/styles.css */
+.flash-text {
+    animation: flash 1s infinite alternate;
+    display: inline-block; /* Ensures the flash effect works properly */
+}
+
+@keyframes flash {
+    from { color: #FF0000; background-color: #FFFF00; }
+    to { color: #FFFF00; background-color: #FFFF00; }
+}
+
+.stable-highlight {
+    background-color: #FFFF00;
+    color: #FF0000;
+    font-weight: bold;
+}
